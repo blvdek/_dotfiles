@@ -1,0 +1,42 @@
+{
+    "layer": "top",
+    "margin": "10 10 5 10",
+    "height": 16,
+
+    "include": ["~/.config/waybar/modules.json"],
+
+    "modules-left": [
+        "wlr/taskbar",
+        "group/events",
+        "hyprland/window"
+    ],
+
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+        "backlight",
+        "pulseaudio",
+        "network",
+        "battery",
+        "group/today",
+        "custom/power"
+    ],
+
+    "group/today": {
+      "orientation": "horizontal",
+      "modules": [
+        "custom/weather",
+        "clock"
+      ]
+    },
+
+    "group/events": {
+      "orientation": "horizontal",
+      "modules": [
+        "custom/updates",
+        "custom/mail"
+      ]
+    }
+}

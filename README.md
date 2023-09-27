@@ -4,19 +4,15 @@ My dotfiles for hyprland based on [Catpuccin theme](https://github.com/catppucci
 # Screenshots
 ...
 # Install
-First of all you need to clone this repository.
-`git clone https://git.bagoont.ru/blvd/dotfiles`\
-`cd dotfiles`
 
-## Installation screept
+## Installation script
 *Soon*...
 
 ## Fish
 ...
 
 ## Hyprland
-Copy hypr dir to `~/.config/hypr`.
-``
+...
 
 ## Waybar
 ...
@@ -27,22 +23,22 @@ Copy hypr dir to `~/.config/hypr`.
 ## Icons
 ...
 
-# Installation script
-*Soon...*
-
 # Theme and functional
 [Hyprland](https://github.com/hyprwm/Hyprland) - wayland compositor.\
 [Waybar](https://github.com/Alexays/Waybar) - bar.\
 [swaylcok-effects](https://github.com/mortie/swaylock-effects) - screenlocker.\
 [swayidle](https://github.com/swaywm/swayidle) - idle management daemon.\
 [wofi](https://hg.sr.ht/~scoopta/wofi) - app launcher.\
-[mako](https://github.com/emersion/mako) - notifications.\
+[libnotify ](https://gitlab.gnome.org/GNOME/libnotify) - desktop notifications.\
+[mako](https://github.com/emersion/mako) - notifications daemon.\
 [foot](https://codeberg.org/dnkl/foot) - terminal emulator.\
 [fish](https://github.com/fish-shell/fish-shell) - shell.\
 [grim](https://git.sr.ht/~emersion/grim) - screenshots.\
 [slurp](https://github.com/emersion/slurp) - select region for screenshot.\
 [playerctl](https://github.com/altdesktop/playerctl) - mpris controller.\
-[swww](https://github.com/Horus645/swww) - wallpaper manager.
+[light](https://github.com/haikarainen/light) - backlights  manager.\
+[swww](https://github.com/Horus645/swww) - wallpaper manager.\
+[neofetch](https://github.com/dylanaraps/neofetch) - fetch.\
 
 # Fonts and icons
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - main font.\
@@ -71,8 +67,8 @@ Copy hypr dir to `~/.config/hypr`.
 `SUPER+SHIFT+ENTER` - fullscreen foot term.\
 `SUPER+t` - float foot term.\
 `SUPER+q` - kill window.\
-`SUPER+f` - float windows.
-`SUPER+SHIFT+F` - fullscreen window.
+`SUPER+f` - float windows.\
+`SUPER+SHIFT+F` - fullscreen window.\
 `SUPER+SPACE` - open wofi menu.\
 `SUPER+w` - wallpapers.\
 `SUPER+h\j\k\l\arrows` - move focus.\
