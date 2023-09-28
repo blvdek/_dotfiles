@@ -38,7 +38,7 @@ My dotfiles for hyprland based on [Catpuccin theme](https://github.com/catppucci
 [playerctl](https://github.com/altdesktop/playerctl) - mpris controller.\
 [light](https://github.com/haikarainen/light) - backlights  manager.\
 [swww](https://github.com/Horus645/swww) - wallpaper manager.\
-[neofetch](https://github.com/dylanaraps/neofetch) - fetch.\
+[neofetch](https://github.com/dylanaraps/neofetch) - fetch.
 
 # Fonts and icons
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - main font.\
