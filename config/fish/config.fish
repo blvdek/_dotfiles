@@ -9,6 +9,5 @@ end
 abbr -a -g update 'paru -Syu --noconfirm'
 abbr -a -g sshon 'sudo systemctl start sshd.service'
 abbr -a -g sshoff 'sudo systemctl stop sshd.service'
-abbr -a -g ssh 'kitty +kitten ssh'
 
 set PATH $PATH /home/$USER/.local/bin
