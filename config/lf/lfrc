@@ -1,0 +1,44 @@
+# Basic vars
+
+set icons
+set drawbox
+set period 1
+set autoquit true
+set sixel true
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
+# Functions
+
+cmd trash %trash-put $fx
+
+cmd drag-and-drop %dragon-drop -a -x -T $fx
+cmd drag-all-and-stay %dragon-drop -a -T $fx
+cmd drag-one-and-stay %dragon-drop -T $fx
+
+cmd mkdir %mkdir -p "$@"; lf -remote "send $id select \"$*\""
+cmd touch %touch "$@"
+
+cmd extract ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "Extract?[y/N]"
+	read ans
+	[ $ans = "y" ] && aunpack $fx
+}}
+
+# Binds
+map y # unmap
+map yy copy
+map x cut
+map d trash
+map a push :touch<space>
+map A push :mkdir<space>
+map <enter> shell
+map F filter
+map <c-d> drag-and-drop
+map R reload
+map V push :!nvim<space>
