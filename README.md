@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles based on [Catpuccin theme](https://github.com/catppuccin/catppuccin) for hyprland.
+My dotfiles based on [Catppuccin theme](https://github.com/catppuccin/catppuccin) for hyprland.
 
 ## Screeshots
 
@@ -51,7 +51,7 @@ My dotfiles based on [Catpuccin theme](https://github.com/catppuccin/catppuccin)
 [jq](https://github.com/jqlang/jq) - command line JSON processor for lf.\
 [poppler](https://gitlab.freedesktop.org/poppler/poppler) - pdf rendering for lf.\
 [glow](https://github.com/charmbracelet/glow) - render markdown for lf.\
-[dragon-drop](https://github.com/schne324/dragon-drop) - drag and drop for lf.\
+[dragon-drop](https://github.com/schne324/dragon-drop) - drag and drop for lf.
 
 *The rest of the applications I use through a flatpack.*\
 *How you can apply GTK and QT themes to flatpack can be found [here](https://itsfoss.com/flatpak-app-apply-theme/).*
