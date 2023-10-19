@@ -12,6 +12,7 @@ My dotfiles based on [Catppuccin theme](https://github.com/catppuccin/catppuccin
 *Soon*...
 
 ## Theme and functional
+[wallpapers](https://github.com/zhichaoh/catppuccin-wallpapers) - wallpapers.\
 [Hyprland](https://github.com/hyprwm/Hyprland) - wayland compositor.\
 [Waybar](https://github.com/Alexays/Waybar) - bar.\
 [swaylcok-effects](https://github.com/mortie/swaylock-effects) - screenlocker.\
