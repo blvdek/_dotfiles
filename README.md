@@ -8,9 +8,6 @@ My dotfiles based on [Catppuccin theme](https://github.com/catppuccin/catppuccin
 ![Text](assets/3.png)
 ![Nvim](assets/4.png)
 
-## Install
-*Soon*...
-
 ## Theme and functional
 [wallpapers](https://github.com/zhichaoh/catppuccin-wallpapers) - wallpapers.\
 [Hyprland](https://github.com/hyprwm/Hyprland) - wayland compositor.\
@@ -52,7 +49,8 @@ My dotfiles based on [Catppuccin theme](https://github.com/catppuccin/catppuccin
 [jq](https://github.com/jqlang/jq) - command line JSON processor for lf.\
 [poppler](https://gitlab.freedesktop.org/poppler/poppler) - pdf rendering for lf.\
 [glow](https://github.com/charmbracelet/glow) - render markdown for lf.\
-[dragon-drop](https://github.com/schne324/dragon-drop) - drag and drop for lf.
+[dragon-drop](https://github.com/schne324/dragon-drop) - drag and drop for lf.\
+[fd](https://github.com/sharkdp/fd) - program to find entries in your filesystem.
 
 *The rest of the applications I use through a flatpack.*\
 *How you can apply GTK and QT themes to flatpack can be found [here](https://itsfoss.com/flatpak-app-apply-theme/).*

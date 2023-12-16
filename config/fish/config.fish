@@ -11,3 +11,4 @@ abbr -a -g sshon 'sudo systemctl start sshd.service'
 abbr -a -g sshoff 'sudo systemctl stop sshd.service'
 
 set PATH $PATH /home/$USER/.local/bin
+pyenv init - | source

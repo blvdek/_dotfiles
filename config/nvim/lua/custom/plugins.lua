@@ -62,5 +62,20 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+    "linux-cultist/venv-selector.nvim",
+    dependencies = { "neovim/nvim-lspconfig", "nvim-telescope/telescope.nvim", "mfussenegger/nvim-dap-python" },
+    config = function()
+      require('venv-selector').setup {
+        name = "venv",
+        pyenv_path = "/home/blvd/.pyenv"
+      }
+    end,
+    event = 'VeryLazy',
+    keys = {
+      { '<leader>vs', '<cmd>VenvSelect<cr>' },
+      { '<leader>vc', '<cmd>VenvSelectCached<cr>' },
+    },
+  }
 }
 return plugins
