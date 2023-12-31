@@ -28,7 +28,7 @@ My dotfiles based on [Catppuccin theme](https://github.com/catppuccin/catppuccin
 
 ## Fonts and icons
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - main font.\
-[Terminus](https://terminus-font.sourceforge.net/) - terminal font.\
+[Hack](https://github.com/source-foundry/Hack) - terminal font.\
 [Papirus Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - icons.
 
 ## Applications
